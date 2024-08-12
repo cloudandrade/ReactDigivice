@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ReactDigivice/static/css/main.b88c36a5.css",
+    "main.js": "/ReactDigivice/static/js/main.17aabae8.js",
+    "index.html": "/ReactDigivice/index.html",
+    "main.b88c36a5.css.map": "/ReactDigivice/static/css/main.b88c36a5.css.map",
+    "main.17aabae8.js.map": "/ReactDigivice/static/js/main.17aabae8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b88c36a5.css",
+    "static/js/main.17aabae8.js"
+  ]
+}
