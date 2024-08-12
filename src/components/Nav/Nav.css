@@ -1,0 +1,21 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003366; /* Azul marinho */
+  color: white;
+  padding: 10px 20px;
+  border-bottom: 4px solid orange;
+}
+
+.nav-logo {
+  width: 40px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+  margin-right: 10px;
+}
+
+.nav-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}

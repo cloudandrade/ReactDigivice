@@ -1,0 +1,28 @@
+.digimon-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    background-color: #fff;
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .digimon-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .digimon-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .digimon-name {
+    font-size: 1.25rem;
+    margin: 8px 0;
+  }
+  
+  .digimon-description {
+    font-size: 0.875rem;
+    color: #666;
+  }

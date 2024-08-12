@@ -1,0 +1,15 @@
+.carousel {
+    display: flex;
+    overflow-x: auto;
+  }
+  
+  .carousel-item {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    text-align: center;
+  }
+  
+  .carousel-item img {
+    width: 100px;
+    height: auto;
+  }
