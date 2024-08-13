@@ -1,28 +1,31 @@
 .digimon-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 16px;
-    text-align: center;
-    background-color: #fff;
-    transition: box-shadow 0.2s ease;
-  }
-  
-  .digimon-card:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .digimon-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-  }
-  
-  .digimon-name {
-    font-size: 1.25rem;
-    margin: 8px 0;
-  }
-  
-  .digimon-description {
-    font-size: 0.875rem;
-    color: #666;
-  }
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  background: #fff;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.digimon-card:hover {
+  transform: scale(1.05);
+}
+
+.digimon-image {
+  width: 100%;
+  height: auto;
+}
+
+.digimon-details {
+  padding: 10px;
+}
+
+.digimon-name {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #333;
+}
