@@ -35,6 +35,24 @@
   margin: 0;
 }
 
+.nav-title.dark {
+  color: #FFA500;
+  font-size: 24px;
+  margin: 0;
+}
+
+.dark-mode-label{
+  margin-left: 5px;
+  margin-top: 8px;
+  color: #00dee6;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  font-style: italic;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+}
+
 .nav-search {
   display: flex;
   align-items: center;
@@ -45,6 +63,15 @@
   border-radius: 4px 0 0 4px;
   border: 1px solid #ccc;
   font-size: 16px;
+}
+
+.nav-search-input.dark {
+  padding: 5px 10px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #FFA500;
+  background-color: #121212;
 }
 
 .nav-search-button {

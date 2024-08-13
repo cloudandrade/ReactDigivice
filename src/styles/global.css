@@ -18,6 +18,11 @@ body {
     margin: 0 auto;
     padding: 20px;
   }
+
+  .app.dark-mode {
+    background-color: #121212; /* Cor de fundo escuro */
+    color: #e0e0e0; /* Cor do texto claro */
+  }
   
   .digimon-list {
     display: flex;
@@ -30,6 +35,10 @@ body {
   .list-item {
     flex-basis: calc(25% - 32px);
     box-sizing: border-box;
+  }
+
+  .darkened-image {
+    filter: brightness(0.5);
   }
   
   @media (max-width: 768px) {

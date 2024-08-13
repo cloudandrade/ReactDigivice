@@ -11,6 +11,20 @@
   cursor: pointer;
 }
 
+.digimon-card.dark{
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  background: #1f1e1e;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+
 .digimon-card:hover {
   transform: scale(1.05);
 }
@@ -21,11 +35,21 @@
 }
 
 .digimon-details {
-  padding: 10px;
+  padding: 5px;
 }
 
 .digimon-name {
   font-size: 1.2rem;
-  margin: 10px 0;
+  margin: 5px 0;
   color: #333;
+}
+
+.digimon-name.dark {
+  font-size: 1.2rem;
+  margin: 5px 0;
+  color: #FFA500;
+}
+
+.darkened-image {
+  filter: brightness(0.5);
 }
