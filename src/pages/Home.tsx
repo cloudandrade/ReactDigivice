@@ -45,12 +45,14 @@ const Home: React.FC = () => {
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
+    //disable useEffect lint bug, tracking the var state and saying that it is not used
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [loading]);
 
   return (
     <div>
       <Nav />
-      <div style={{ marginTop: '60px' }}> {/* Adiciona espaço abaixo do nav */}
+      <div style={{ marginTop: '60px' }}>
       <List digimons={digimons} />
       {loading && <Loader />}
       {!hasMore && <p>Não há mais Digimons para carregar.</p>}

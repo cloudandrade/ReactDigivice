@@ -8,6 +8,14 @@
 
 The project is a library of Digimons, where you can find every digimon basic information, search for it, and have simply put, enjoy the interface and tools you'll find here. If you never heard about Digimons or don't cares it, that's perfectly good, you will apreciate navigate through the project and see what i built.
 
+Features:
+   > Redux
+   > Darkmode
+   > Text To Speech
+   > Responsivity
+   > Funny Layout
+   > Clean Architecture
+
 Start this project:
 
 1- Clone the repository or fork this.

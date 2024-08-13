@@ -1,11 +1,11 @@
 import React from 'react';
 import { DetailedDigiItem } from '../../types/DigiTypes';
-import './Modal.css'; // Importar o CSS para estilizar
+import './Modal.css'; 
 import Carousel from '../Carousel/Carousel';
 import TextToSpeechButton from '../TextToSpeechButton/TextToSpeechButton';
-import { useSelector, useDispatch } from 'react-redux';
-import { RootState, AppDispatch } from '../../redux/store';
-import { toggleDarkMode } from '../../redux/darkModeSlice';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../redux/store';
+
 
 interface ModalProps {
   isOpen: boolean;

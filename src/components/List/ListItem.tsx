@@ -1,4 +1,3 @@
-// ListItem.tsx
 import React from 'react';
 import { DigiItem } from '../../types/DigiTypes';
 import DigimonCard from '../Card/DigimonCard'

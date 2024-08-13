@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Nav.css'; // Importar o CSS para estilizar
 import digiviceImg from '../../assets/images/Digivice.png'
 import { useSelector, useDispatch } from 'react-redux';
@@ -6,7 +6,7 @@ import { RootState, AppDispatch } from '../../redux/store';
 import { toggleDarkMode } from '../../redux/darkModeSlice';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import { styled } from '@mui/material/styles';
-import Switch, { SwitchProps } from '@mui/material/Switch';
+import Switch from '@mui/material/Switch';
 
 const MaterialUISwitch = styled(Switch)(({ theme }) => ({
   width: 52,

@@ -7,7 +7,7 @@ export const fetchDigimons = async (page: number, pageSize: number) => {
   try {
     const response = await axios.get(`${API_BASE_URL}/digimon?page=${page}&pageSize=${pageSize}`);
     
-    return response.data.content || []; // Supondo que os Digimons estejam na propriedade "content"
+    return response.data.content || [];
   } catch (error) {
     console.error("Erro ao buscar digimons:", error);
     return [];

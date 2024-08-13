@@ -1,6 +1,6 @@
 import React from 'react';
 import { ttsService } from '../../services/ttsService';
-import './TextToSpeechButton.css'; // Estilos específicos do botão
+import './TextToSpeechButton.css';
 
 interface TextToSpeechButtonProps {
   text: string;
