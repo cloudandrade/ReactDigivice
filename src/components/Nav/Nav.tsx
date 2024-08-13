@@ -1,15 +1,20 @@
 import React from 'react';
 import './Nav.css'; // Importar o CSS para estilizar
+import digiviceImg from '../../assets/images/Digivice.png'
 
 const Nav: React.FC = () => {
   return (
     <nav className="nav-bar">
-     {/*  <img
-        src="https://static.wikia.nocookie.net/digimon-adventure5140/images/f/fd/Digivice_tri.png/revision/latest?cb=20170328025147"
-        alt="Digivice"
-        className="nav-logo"
-      /> */}
-      <h1 className="nav-title">Digivice</h1>
+      <div className="nav-content">
+        <div className="nav-logo-title">
+          <img src={digiviceImg} alt="Digivice" className="nav-logo" />
+          <h1 className="nav-title">Digivice</h1>
+        </div>
+        <div className="nav-search">
+          <input type="text" placeholder="Search Digimon..." className="nav-search-input" />
+          <button className="nav-search-button">Search</button>
+        </div>
+      </div>
     </nav>
   );
 };
